@@ -1,0 +1,4 @@
+<RCC>
+    <qresource prefix="QtCrashDumper">
+    </qresource>
+</RCC>
