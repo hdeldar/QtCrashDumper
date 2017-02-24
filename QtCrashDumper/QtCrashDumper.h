@@ -9,7 +9,8 @@ class QtCrashDumper : public QMainWindow
 
 public:
     QtCrashDumper(QWidget *parent = Q_NULLPTR);
-
+private slots:
+	void on_crashBtn_clicked();
 private:
     Ui::QtCrashDumperClass ui;
 };
